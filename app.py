@@ -627,21 +627,22 @@ with tab4:
         # ── Plot 3: ruggedness vs divergence within family ──
         axes[2].scatter(fam_df['corridor_ruggedness'], fam_df['ling_divergence'],
                         alpha=0.65, s=35, color='#2c5f8a')
-        if len(fam_df) > 5:
-    try:
+ try:
+    if len(fam_df) > 5 and fam_df['corridor_ruggedness'].nunique() > 1:
         sl3, ic3, *_ = sp_stats.linregress(fam_df['corridor_ruggedness'], fam_df['ling_divergence'])
         xr = np.linspace(fam_df['corridor_ruggedness'].min(), fam_df['corridor_ruggedness'].max(), 100)
         axes[2].plot(xr, ic3 + sl3*xr, '#c0392b', lw=2)
         r3, p3 = sp_stats.spearmanr(fam_df['corridor_ruggedness'], fam_df['ling_divergence'])
         sig3 = "***" if p3 < 0.001 else "**" if p3 < 0.01 else "*" if p3 < 0.05 else "ns"
         axes[2].set_title(f'Ruggedness vs Divergence\nρ = {r3:.3f} {sig3}', fontsize=9)
-    except ValueError:
-        axes[2].set_title('Ruggedness vs Divergence\n(all ruggedness values identical)', fontsize=9)
-else:
-    axes[2].set_title('Ruggedness vs Divergence\n(too few pairs for trend)', fontsize=9)
-        axes[2].set_xlabel('Corridor ruggedness', fontsize=8)
-        axes[2].set_ylabel('Divergence', fontsize=8)
-        sns.despine(ax=axes[2])
+    else:
+        axes[2].set_title('Ruggedness vs Divergence\n(insufficient variation)', fontsize=9)
+except ValueError:
+    axes[2].set_title('Ruggedness vs Divergence\n(all ruggedness values identical)', fontsize=9)
+
+axes[2].set_xlabel('Corridor ruggedness', fontsize=8)
+axes[2].set_ylabel('Divergence', fontsize=8)
+sns.despine(ax=axes[2])
 
         plt.tight_layout()
         st.pyplot(fig, use_container_width=True)
