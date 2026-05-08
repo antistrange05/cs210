@@ -1,5 +1,6 @@
 # CS210 - Data Science Project
 https://antistrange05-cs210-app-livadq.streamlit.app/
+
 https://drive.google.com/file/d/1BaqYfe163RYCb6HRly6hLW-eGgiQu5c2/view?usp=sharing - video
 
 This project investigates the relationship between geographic isolation and lexical divergence across the world's language families. It uses a pairwise methodology to treat 15,183 language pairs as independent observations. It includes data preprocessing, spatial feature engineering, OLS regression and Mantel tests, and a Streamlit web application for interactive visualization.
