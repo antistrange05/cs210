@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+geopandas
+geodatasets
+shapely
+Levenshtein
+statsmodels
+scikit-learn
+streamlit
