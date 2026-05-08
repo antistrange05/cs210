@@ -1,5 +1,6 @@
 # CS210 - Data Science Project
 https://antistrange05-cs210-app-livadq.streamlit.app/
+https://drive.google.com/file/d/1BaqYfe163RYCb6HRly6hLW-eGgiQu5c2/view?usp=sharing - video
 
 This project investigates the relationship between geographic isolation and lexical divergence across the world's language families. It uses a pairwise methodology to treat 15,183 language pairs as independent observations. It includes data preprocessing, spatial feature engineering, OLS regression and Mantel tests, and a Streamlit web application for interactive visualization.
 
@@ -66,9 +67,9 @@ pairs.csv
 
 MAIN Notebooks/
 
-☐ linguistic_geography.ipynb
+☐ linguistics.ipynb
 
-How to run - Navigate to linguistic_geography.ipynb and hit the Colab button on the top left hand corner, everything is laid out there!
+How to run - Navigate to linguistics.ipynb and hit the Colab button on the top left hand corner, everything is laid out there!
 Also, my streamlit app is linked at the top of this page to run my app.py
 This readme and my linguistic_geography.ipynb contain information about this project, and I consider a combination of the two a final report
 
