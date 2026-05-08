@@ -3,7 +3,7 @@
 
 **CS210 — Data Science Project**
 
-[![Link to Demo]](https://drive.google.com/file/d/1BaqYfe163RYCb6HRly6hLW-eGgiQu5c2/view?usp=drive_link)
+[![Link to Demo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png?_=20240107144800)](https://drive.google.com/file/d/1BaqYfe163RYCb6HRly6hLW-eGgiQu5c2/view?usp=drive_link)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antistrange05/cs210/blob/main/linguistics.ipynb)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://antistrange05-cs210-app-livadq.streamlit.app)
 
