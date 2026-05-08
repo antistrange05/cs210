@@ -54,11 +54,11 @@ LICENSE
 
 Datasets/
 
-☐ forms.csv
-☐ languages.csv
-☐ languoid.csv
-☐ rugged_data.csv
-☐ pairs.csv
+forms.csv
+languages.csv
+languoid.csv
+rugged_data.csv
+pairs.csv
 
 
 
@@ -67,6 +67,9 @@ Datasets/
 MAIN Notebooks/
 
 ☐ linguistic_geography.ipynb
+
+How to run - Navigate to linguistic_geography.ipynb and hit the Colab button on the top left hand corner, everything is laid out there!
+Also, my streamlit app is linked at the top of this page to run my app.py
 
 
 
