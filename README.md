@@ -70,6 +70,6 @@ MAIN Notebooks/
 
 How to run - Navigate to linguistic_geography.ipynb and hit the Colab button on the top left hand corner, everything is laid out there!
 Also, my streamlit app is linked at the top of this page to run my app.py
-
+This readme and my linguistic_geography.ipynb contain information about this project, and I consider a combination of the two a final report
 
 
