@@ -87,8 +87,6 @@ Europe/Middle East shows the highest within-family divergence; Asia and Pacific/
 ### Divergence by World Region
 ![Regional Plot](divergence_by_region.png)
 
-### Predictive Model — Actual vs Predicted
-![Predictive Model](predictive_model.png)
 
 ---
 
@@ -122,8 +120,7 @@ cs210/
 │
 ├── predictors_plot.png
 ├── world_map_divergence.png
-├── divergence_by_region.png
-└── predictive_model.png
+└── divergence_by_region.png
 ```
 
 ---
