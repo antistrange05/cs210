@@ -45,7 +45,7 @@ Geographic distance between language homelands is a significant predictor of lex
 | Mantel r | **0.331** | 0.001 ** |
 | OLS coefficient (log dist) | **0.0418** | < 0.001 *** |
 
-Languages farther apart diverge more — consistent with the **isolation-by-distance** model from population genetics, now confirmed for lexical divergence.
+Languages farther apart diverge more, consistent with the isolation-by-distance model from population genetics, now confirmed for lexical divergence.
 
 ### 2. The Terrain Paradox
 
